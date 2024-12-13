@@ -1,7 +1,7 @@
 
 import streamlit as st
 import tweepy
-import snscrape.modules.twitter as sntwitter
+from snscrape.modules.twitter import TwitterSearchScraper
 import pandas as pd
 from textblob import TextBlob
 import matplotlib.pyplot as plt
